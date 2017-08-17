@@ -14,6 +14,7 @@ namespace NetCoreWithMosh.Persistence
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("server=mydb.c8jire4gyzlv.eu-central-1.rds.amazonaws.com; database=moshwebcourse;user=awsuser;password=Troloby1!");
 
+        public DbSet<Feature> Features { get; set; }
         public DbSet<Make> Makes { get; set; }
     }
 }
