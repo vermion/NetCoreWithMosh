@@ -23,6 +23,9 @@ namespace NetCoreWithMosh
     }
 
     // For ASP .NET Core 2.0
+    //
+    // https://github.com/aspnet/Announcements/issues/258
+    //
     //public class Program
     //{
     //    public static void Main(string[] args)
